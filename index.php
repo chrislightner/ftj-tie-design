@@ -82,7 +82,7 @@
           <li style="text-decoration: line-through;">More flexibility in photos</li>
           <li>Photo search</li>
           <li>Text element spacing</li>
-          <li>Accordion styling</li>
+          <li style="text-decoration: line-through;">Accordion styling</li>
           <li style="text-decoration: line-through;">Spruce up association landing page</li>
         </ul>
       </div>
