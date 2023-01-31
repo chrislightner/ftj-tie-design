@@ -75,15 +75,8 @@
       <div class="col-md-6">
         <h2>Todos</h2>
         <ul>
-          <li style="text-decoration: line-through;">H1/Banner on mobile</li>
-          <li style="text-decoration: line-through;">Table styling</li>
-          <li>Three-column layout module</li>
-          <li>Highlight message</li>
-          <li style="text-decoration: line-through;">More flexibility in photos</li>
-          <li>Photo search</li>
-          <li>Text element spacing</li>
-          <li style="text-decoration: line-through;">Accordion styling</li>
-          <li style="text-decoration: line-through;">Spruce up association landing page</li>
+          <li>...</li>
+          <!-- <li style="text-decoration: line-through;">...</li> -->
         </ul>
       </div>
     </div>
