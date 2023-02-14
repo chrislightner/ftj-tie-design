@@ -7,3 +7,4 @@
 # Ignore everything in the "node_modules" directory, except the "bootstrap"
 node_modules/*
 !node_modules/bootstrap/
+!node_modules/jquery/

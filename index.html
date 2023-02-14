@@ -59,8 +59,8 @@
           <li><a href="mockups/assoc-prod-list.html" target="_blank">Association Product List example</a></li>
           <li><a href="mockups/product.html" target="_blank">Product Page example</a></li>
           <li><a href="mockups/assoc-lp.html" target="_blank">Association Landing Page example</a></li>
-          <li><a href="mockups/product-lp.html" target="_blank">Product Landing Page example</a></li>
-          <li><a href="mockups/product-group-lp.html" target="_blank">Product Group Landing Page example</a></li>
+          <li><a href="mockups/product-lp.html" target="_blank">Product Redirect Page example</a></li>
+          <li><a href="mockups/product-group-lp.html" target="_blank">Product Category Landing Page example</a></li>
         </ul>
       </div>
 
@@ -75,7 +75,58 @@
       <div class="col-md-6">
         <h2>Todos</h2>
         <ul>
-          <li>...</li>
+          <li style="text-decoration: line-through;">Fix tab functionality</li>
+          <li>Homepage
+            <ul>
+              <li>Add carrier carousel</li>
+              <li>Add video</li>
+              <li>Testimonials</li>
+              <li>Contact Us/Blog/Customer Portal links (Navigation)</li>
+            </ul>
+          </li>
+          <li>Footer (more robust)
+            <ul>
+              <li>Add Questions/Admin</li>
+              <li>Add social</li>
+              <li>Add partner information</li>
+            </ul>
+          </li>
+          <li>Association Product List page
+            <ul>
+              <li>Accordion treatment</li>
+              <li>Special message to group</li>
+              <li>Move "Save money" about listing</li>
+              <li>Less widgets</li>
+            </ul>
+          </li>
+          <li>Professional Liability Page (Product Landing Page)
+            <ul>
+              <li>Standardize Sidebar</li>
+              <li>Remove video link</li>
+              <li>More promotional heading for professional liability</li>
+            </ul>
+          </li>
+          <li>Product Page
+            <ul>
+              <li>How to handle Call button/link</li>
+              <li>How to treat rate calculators (not a modal popup)</li>
+              <li>More promotional heading for professional liability</li>
+            </ul>
+          </li>
+          <li>Contact Us Page
+            <ul>
+              <li>Contextual/Dynamic</li>
+              <li>Simplify Product Selection</li>
+              <li>More promotional heading for professional liability</li>
+            </ul>
+          </li>
+          <li>Carrier Carousels on Landing pages</li>
+          <li>Blog Page(s)</li>
+          <li>Disclosure Page</li>
+          <li>Product Redirect Page (Prof Liability)</li>
+          <li>Product Group Page (Term Life or Life)</li>
+          <li>New photo for professional liability</li>
+          <li>Update title tags</li>
           <!-- <li style="text-decoration: line-through;">...</li> -->
         </ul>
       </div>
