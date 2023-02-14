@@ -110,14 +110,12 @@
             <ul>
               <li>How to handle Call button/link</li>
               <li>How to treat rate calculators (not a modal popup)</li>
-              <li>More promotional heading for professional liability</li>
             </ul>
           </li>
           <li>Contact Us Page
             <ul>
               <li>Contextual/Dynamic</li>
               <li>Simplify Product Selection</li>
-              <li>More promotional heading for professional liability</li>
             </ul>
           </li>
           <li>Carrier Carousels on Landing pages</li>
