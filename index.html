@@ -59,8 +59,8 @@
           <li><a href="mockups/assoc-prod-list.html" target="_blank">Association Product List example</a></li>
           <li><a href="mockups/product.html" target="_blank">Product Page example</a></li>
           <li><a href="mockups/assoc-lp.html" target="_blank">Association Landing Page example</a></li>
-          <li><a href="mockups/product-category-lp.html" target="_blank">Product Redirect Page example</a></li>
-          <li><a href="mockups/product-group-lp.html" target="_blank">Product Category Landing Page example</a></li>
+          <li><a href="mockups/product-lp.html" target="_blank">Product Redirect Page example</a></li>
+          <li><a href="mockups/product-category-lp.html" target="_blank">Product Category Landing Page example</a></li>
           <li><a href="mockups/contact-us.html" target="_blank">Contact Us</a></li>
         </ul>
       </div>
