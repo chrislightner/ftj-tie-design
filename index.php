@@ -77,16 +77,16 @@
         <h2>Todos</h2>
         <ul>
           <li style="text-decoration: line-through;">Fix tab functionality</li>
-          <li>Homepage
+          <li style="text-decoration: line-through;">Homepage
             <ul>
               <li style="text-decoration: line-through;">Add carrier carousel</li>
               <li style="text-decoration: line-through;">Add video</li>
-              <li>Testimonials</li>
+              <li style="text-decoration: line-through;">Testimonials</li>
               <li style="text-decoration: line-through;">Contact Us/Blog/Customer Portal links (Navigation)</li>
-              <li>Update Logo</li>
+              <li style="text-decoration: line-through;">Update Logo</li>
             </ul>
           </li>
-          <li>Footer (more robust)
+          <li style="text-decoration: line-through;">Footer (more robust)
             <ul>
               <li style="text-decoration: line-through;">Add Questions/Admin</li>
               <li style="text-decoration: line-through;">Add social</li>
@@ -98,20 +98,21 @@
               <li>Accordion treatment</li>
               <li>Special message to group</li>
               <li>Move "Save money" about listing</li>
-              <li>Less widgets</li>
+              <li style="text-decoration: line-through;">Less widgets</li>
             </ul>
           </li>
-          <li>Professional Liability Page (Product Landing Page)
+          <li style="text-decoration: line-through;">Professional Liability Page (Product Landing Page)
             <ul>
-              <li>Standardize Sidebar</li>
-              <li>Remove video link</li>
-              <li>More promotional heading</li>
+              <li style="text-decoration: line-through;">Standardize Sidebar</li>
+              <li style="text-decoration: line-through;">Remove video link</li>
+              <li style="text-decoration: line-through;">More promotional heading</li>
             </ul>
           </li>
           <li>Product Page
             <ul>
               <li>How to handle Call button/link</li>
-              <li>How to treat rate calculators (not a modal popup)</li>
+              <li>Style Tabs</li>
+              <li style="text-decoration: line-through;">How to treat rate calculators (not a modal popup)</li>
             </ul>
           </li>
           <li style="text-decoration: line-through;">Contact Us Page
@@ -120,13 +121,13 @@
               <li>Simplify Product Selection?</li>
             </ul>
           </li>
-          <li>Carrier Carousels on Landing pages</li>
+          <li style="text-decoration: line-through;">Carrier Carousels on Landing pages</li>
           <li>Blog Page(s)</li>
           <li>Disclosure Page</li>
           <li style="text-decoration: line-through;">Product Redirect Page (Prof Liability)</li>
           <li style="text-decoration: line-through;">Product Group Page (Term Life or Life)</li>
-          <li>New photo for professional liability</li>
-          <li>Update title tags</li>
+          <li style="text-decoration: line-through;">New photo for professional liability</li>
+          <li style="text-decoration: line-through;">Update title tags</li>
           <!-- <li style="text-decoration: line-through;">...</li> -->
         </ul>
       </div>

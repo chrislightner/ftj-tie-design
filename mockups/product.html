@@ -6,14 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../assets/css/starter.css">
   <link rel="stylesheet" href="../assets/css/ftj-tie-styles.css">
+  <link rel="stylesheet" href="https://ftj.com/app_themes/default/css/metlifedentalcalculator.css">
   <title>TIE : Product Details</title>
 </head>
 
 <body>
   <header>
     <div class="container">
+    <nav class="navbar navbar-expand-lg">
       <img class="assoc-logo" src="../images/ams.png" alt="">
-      <img class="logo" src="../images/Member-Insurance-Program.png" alt="">
+      <a class="navbar-brand" href="#"><img class="logo" src="../images/Member-Insurance-Program.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+
+        <img src="../images/search.svg" class="search" alt="">
+        <ul class="navbar-nav mr-0">
+          <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+            <a class="nav-link" href="#">Customer Portal</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
     </div>
   </header>
   <div class="billboard prod container-flex mb-5">
@@ -24,11 +47,15 @@
   <div class="container main">
     <div class="d-flex flex-column flex-lg-row">
 
-      <div class="content col-lg-8 pr-lg-5 pt-5 pt-lg-0">
+      <div class="content col-12 pr-lg-5 pt-5 pt-lg-0">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab"
               aria-controls="overview" aria-selected="true">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cost-tab" data-toggle="tab" href="#costs" role="tab" aria-controls="cost"
+              aria-selected="false">Cost</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details"
@@ -62,6 +89,74 @@
 
             <p class="note"> NOTE: A $20 state-mandated fee will be added to the rates for residents of Pennsylvania
               only.</p>
+          </div>
+
+          <div class="tab-pane fade pt-4" id="costs" role="tabpanel" aria-labelledby="cost-tab">
+            <h2>Cost</h2>
+            <h3>Annual Rates</h3>
+            <p><strong>For W-2 employed educators:</strong></p>
+            <table>
+              <tr>
+                <td><strong>$94</strong></td>
+                <td>for $1 million liability limit</td>
+              </tr>
+              <tr>
+                <td><strong>$131</strong></td>
+                <td>for $2 million liability limit</td>
+              </tr>
+            </table>
+            <p><strong>Employed plus part-time coverage:</strong><br><em>(adds coverage for your part-time educational
+                activities)</em></p>
+            <table>
+              <tr>
+                <td><strong>$188</strong></td>
+                <td>for $1 million liability limit</td>
+              </tr>
+              <tr>
+                <td><strong>$269</strong></td>
+                <td>for $2 million liability limit</td>
+              </tr>
+            </table>
+            <p>Coverage will become effective the first day of the next month after approval and receipt of the annual
+              premium.</p>
+
+            <p>Coverage extends for a full 12 months.</p>
+
+
+
+
+            <div class="innerBoxCalc" id="divDentalCalculator">
+              <div class="calculator">
+                <h2 class="blue bold">
+                  &nbsp;Calculate your rate</h2>
+                <hr />
+                <h3 class="orange bold">
+                  Educators Dental Plan</h3>
+                <p>
+                  <input class="zipcode" id="txtZip" placeholder="Enter your zip" style="display: none;" type="text" /><button class="btnGetDentalRate" id="btnGo" type="submit">Get Rate</button></p>
+                <h4 class="blue" id="lblYourRates">
+                  &nbsp;</h4>
+                <p>
+                  Please select a plan option</p>
+                <select id="ddlRateType"><option>Member Only</option><option>Member + Spouse</option><option>Member + Child</option><option>Member + Family</option></select>
+                <p>
+                  Please select a payment option</p>
+                <select id="ddlRateDivisor"><option value="12">Monthly</option><option value="4">Quarterly</option><option value="2">Semi-Annually</option><option value="1">Annually</option></select>
+                <hr />
+                <h2 class="blue bold">
+                  Your Rate*</h2>
+                <h1 class="orange bold">
+                  <label id="lblRate">_</label></h1>
+                <h4 class="blue" id="lblRateType">
+                  Monthly</h4>
+                <hr />
+                <a class="btnVoluntaryDentalRate" href="/educatordental" id="btnApplyNow" target="_blank">Enroll Now</a><br />
+                <br />
+                <p class="italic finePrint">
+                  *This rate is based on the zip code and state you entered when first accessing the website.</p>
+              </div>
+            </div>
+
           </div>
 
           <div class="tab-pane fade pt-4" id="details" role="tabpanel" aria-labelledby="details-tab">
@@ -643,71 +738,52 @@
         </div>
       </div>
 
-
-
-      <div class="sidebar col-lg-4 mb-lg-4">
-        <div class="box mb-4 p-4">
-          <h3>Annual Rates</h3>
-          <p><strong>For W-2 employed educators:</strong></p>
-          <table>
-            <tr>
-              <td><strong>$94</strong></td>
-              <td>for $1 million liability limit</td>
-            </tr>
-            <tr>
-              <td><strong>$131</strong></td>
-              <td>for $2 million liability limit</td>
-            </tr>
-          </table>
-          <p><strong>Employed plus part-time coverage:</strong><br><em>(adds coverage for your part-time educational
-              activities)</em></p>
-          <table>
-            <tr>
-              <td><strong>$188</strong></td>
-              <td>for $1 million liability limit</td>
-            </tr>
-            <tr>
-              <td><strong>$269</strong></td>
-              <td>for $2 million liability limit</td>
-            </tr>
-          </table>
-          <p>Coverage will become effective the first day of the next month after approval and receipt of the annual
-            premium.</p>
-
-          <p>Coverage extends for a full 12 months.</p>
-        </div>
-        <div class="box mb-4 p-4">
-          <h3>Questions</h3>
-          <p><strong>For Customer Service</strong><br>
-            Call: 800-821-7303<br>
-            Monday thru Friday, except holidays<br>
-            6:30 a.m. to 6:30 p.m. CST</p>
-
-          <button type="submit" class="btn btn-secondary">Contact Us</button>
-        </div>
-        <div class="box mb-4 p-4">
-          <h3>Administered by</h3>
-
-          <p>The Member Insurance Program is administered by Forrest T. Jones & Company</p>
-
-          <button type="submit" class="btn btn-secondary">Learn More</button>
-        </div>
-      </div>
     </div>
   </div>
 
   <div class="footer container-flex p-4">
-    <div class="container d-flex align-items-center">
-      <div>
-        <p>Forrest T. Jones & Company, Inc.<br>
-          © Copyright 2003-2023 Forrest T. Jones & Company, Inc.<br>
-          3130 Broadway, Kansas City, MO 64111 - 800-821-7303, 816-756-1060</p>
-        <p>*In Arizona, certain life and health plans are administered by Forrest T. Jones Consulting Company
-        </p>
+    <div class="container d-flex flex-column flex-md-row">
+      <div class="col-lg-3 mb-3">
+        <p><strong>Forrest T. Jones & Company, Inc.</strong><br>
+          3130 Broadway<br>
+          Kansas City, MO 64111<br>
+          800-821-7303<br>
+          816-756-1060</p>
+      </div>
+      <div class="col-lg-3 mb-3">
+        <p><strong>Partners</strong></p>
+          <p><a href="">TIE News & Notes</a><br>
+            <a href="">Online Order System</a>
+          </p>
+      </div>
+      <div class="col-lg-3 mb-3">
+        <p><strong>Questions</strong></p>
+          <p>Call: 800-821-7303<br>
+            Monday thru Friday, except holidays<br>
+            6:30 a.m. to 6:30 p.m. CST</p>
+      </div>
+      <div class="col-lg-3 mb-3">
+        <p><strong>Administered by</strong></p>
+          <p>The Member Insurance Program is administered by Forrest T. Jones&nbsp;&&nbsp;Company</p>
+      </div>
+    </div>
+    <div class="container social">
+      <ul>
+        <li><strong>Follow us</strong></li>
+        <li><a href="">Facebook</a> </li>
+        <li><a href="">Twitter</a> </li>
+        <li><a href="">LinkedIn</a> </li>
+        <li><a href="">Pinterest</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="small">
+      <p>© Copyright 2003-2023 Forrest T. Jones & Company, Inc.</p>
+      <p>*In Arizona, certain life and health plans are administered by Forrest T. Jones Consulting Company</p>
         <p>Arkansas Insurance License #100107380, California Insurance License #0592939,<br>
           Minnesota Insurance License #4896, Oklahoma Insurance License #100103424,<br>
           Texas Insurance License #13916</p>
-      </div>
+        </div>
     </div>
   </div>
 
