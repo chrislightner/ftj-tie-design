@@ -22,3 +22,4 @@ import "../../node_modules/bootstrap/js/dist/util.js";
 import "../../node_modules/bootstrap/js/dist/modal.js";
 import "../../node_modules/bootstrap/js/dist/tab.js";
 import "../../node_modules/bootstrap/js/dist/collapse.js";
+import "../../node_modules/bootstrap/js/dist/carousel.js";
