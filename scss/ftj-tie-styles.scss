@@ -407,7 +407,6 @@ select {
 
 .carriers{
   clear:both;
-  margin:30px auto;
 }
 
 .testimonial{
@@ -427,6 +426,31 @@ select {
   .attribution{
     font-weight: 700;
     text-align: right;
+  }
+}
+.prod-list-accordion{
+  h3{
+    cursor:pointer;
+  }
+.toggle-content{
+  display:none;
+}
+}
+
+.product {
+  .nav-tabs{
+    .nav-link {
+      border-radius: 0;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color:$dark-gray;
+    }
+    .nav-link.active {
+      border-radius: 0;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color:$burnt-orange;
+    }
   }
 }
 
