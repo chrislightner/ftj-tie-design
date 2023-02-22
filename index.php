@@ -61,6 +61,8 @@
           <li><a href="mockups/assoc-lp.html" target="_blank">Association Landing Page example</a></li>
           <li><a href="mockups/product-lp.html" target="_blank">Product Redirect Page example</a></li>
           <li><a href="mockups/product-category-lp.html" target="_blank">Product Category Landing Page example</a></li>
+          <li><a href="mockups/blog-lp.html" target="_blank">Blog Landing Page</a></li>
+          <li><a href="mockups/blog-post.html" target="_blank">Blog Post</a></li>
           <li><a href="mockups/contact-us.html" target="_blank">Contact Us</a></li>
         </ul>
       </div>
@@ -118,7 +120,6 @@
           <li style="text-decoration: line-through;">Contact Us Page
             <ul>
               <li style="text-decoration: line-through;">Contextual/Dynamic</li>
-              <li>Simplify Product Selection?</li>
             </ul>
           </li>
           <li style="text-decoration: line-through;">Carrier Carousels on Landing pages</li>
@@ -126,7 +127,7 @@
           <li style="text-decoration: line-through;">Product Group Page (Term Life or Life)</li>
           <li style="text-decoration: line-through;">New photo for professional liability</li>
           <li style="text-decoration: line-through;">Update title tags</li>
-          <li>Blog Page(s)</li>
+          <li style="text-decoration: line-through;">Blog Page(s)</li>
           <li style="text-decoration: line-through;">Revisit Styling Across Pages</li>
           <li style="text-decoration: line-through;">Mobile presentation of tabs on product page</li>
           <!-- <li style="text-decoration: line-through;">...</li> -->
