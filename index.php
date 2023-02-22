@@ -93,11 +93,11 @@
               <li style="text-decoration: line-through;">Add partner information</li>
             </ul>
           </li>
-          <li>Association Product List page
+          <li style="text-decoration: line-through;">Association Product List page
             <ul>
-              <li>Accordion treatment</li>
-              <li>Special message to group</li>
-              <li>Move "Save money" about listing</li>
+              <li style="text-decoration: line-through;">Accordion treatment</li>
+              <li style="text-decoration: line-through;">Special message to group</li>
+              <li style="text-decoration: line-through;">Move "Save money" about listing</li>
               <li style="text-decoration: line-through;">Less widgets</li>
             </ul>
           </li>
@@ -108,10 +108,10 @@
               <li style="text-decoration: line-through;">More promotional heading</li>
             </ul>
           </li>
-          <li>Product Page
+          <li style="text-decoration: line-through;">Product Page
             <ul>
-              <li>How to handle Call button/link</li>
-              <li>Style Tabs</li>
+              <li style="text-decoration: line-through;">How to handle Call button/link</li>
+              <li style="text-decoration: line-through;">Style Tabs</li>
               <li style="text-decoration: line-through;">How to treat rate calculators (not a modal popup)</li>
             </ul>
           </li>
@@ -122,12 +122,13 @@
             </ul>
           </li>
           <li style="text-decoration: line-through;">Carrier Carousels on Landing pages</li>
-          <li>Blog Page(s)</li>
-          <li>Disclosure Page</li>
           <li style="text-decoration: line-through;">Product Redirect Page (Prof Liability)</li>
           <li style="text-decoration: line-through;">Product Group Page (Term Life or Life)</li>
           <li style="text-decoration: line-through;">New photo for professional liability</li>
           <li style="text-decoration: line-through;">Update title tags</li>
+          <li>Blog Page(s)</li>
+          <li style="text-decoration: line-through;">Revisit Styling Across Pages</li>
+          <li style="text-decoration: line-through;">Mobile presentation of tabs on product page</li>
           <!-- <li style="text-decoration: line-through;">...</li> -->
         </ul>
       </div>
