@@ -59,11 +59,14 @@
           <li><a href="mockups/assoc-prod-list.html" target="_blank">Association Product List example</a></li>
           <li><a href="mockups/product.html" target="_blank">Product Page example</a></li>
           <li><a href="mockups/assoc-lp.html" target="_blank">Association Landing Page example (Only association known)</a></li>
-          <li><a href="mockups/product-lp.html" target="_blank">Product Redirect Page example (Only product known)</a></li>
+          <li><a href="mockups/product-lp.html" target="_blank">Product Landing Page example (Only product known)</a></li>
+          <li><a href="mockups/product-redirect.html" target="_blank">Product Redirect Page example (Only product known)</a></li>
           <li><a href="mockups/product-category-lp.html" target="_blank">Product Category Landing Page example (Only product category known)</a></li>
           <li><a href="mockups/blog-lp.html" target="_blank">Blog Landing Page</a></li>
           <li><a href="mockups/blog-post.html" target="_blank">Blog Post</a></li>
           <li><a href="mockups/contact-us.html" target="_blank">Contact Us</a></li>
+          <li><a href="mockups/about-ftj.html" target="_blank">Simple Content page</a></li>
+          <li><a href="mockups/single-column.html" target="_blank">Single-column layout</a></li>
         </ul>
       </div>
 
@@ -78,44 +81,44 @@
       <div class="col-md-6">
         <h2>Todos</h2>
         <ul>
-          <li>Remove floating form on HP and landing pages. Align with content.</li>
-          <li>Check form box on single-column layouts</li>
-          <li>Replace logo carousel with series of static logos.</li>
-          <li>Quote element full width, or better define content area.</li>
-          <li>Video element full width, or better define content area.</li>
-          <li>Develop full-width, no right rail page variation.</li>
-          <li>Check header height across pages.</li>
-          <li>Reduce the use of the serif font.</li>
-          <li>Introduce more background color variation, or reduce to one. What is logic?</li>
-          <li>Association Product List page:
+          <li style="text-decoration: line-through;">Remove floating form on HP and landing pages. Align with content.</li>
+          <li style="text-decoration: line-through;">Check form box on single-column layouts</li>
+          <li style="text-decoration: line-through;">Replace logo carousel with series of static logos.</li>
+          <li style="text-decoration: line-through;">Quote element full width, or better define content area.</li>
+          <li style="text-decoration: line-through;">Video element full width, or better define content area.</li>
+          <li style="text-decoration: line-through;">Develop full-width, no right rail page variation.</li>
+          <li style="text-decoration: line-through;">Check header height across pages.</li>
+          <li style="text-decoration: line-through;">Reduce the use of the serif font.</li>
+          <li style="text-decoration: line-through;">Introduce more background color variation, or reduce to one. What is logic?</li>
+          <li style="text-decoration: line-through;">Clean up menu display on other viewports</li>
+          <li style="text-decoration: line-through;">Association Product List page:
             <ul>
-              <li>Full width, no right rail</li>
-              <li>Add about administrator section</li>
-              <li>Subhead length</li>
-              <li>Check heading consistency on mobile</li>
+              <li style="text-decoration: line-through;">Full width, no right rail</li>
+              <li style="text-decoration: line-through;">Add about administrator section</li>
+              <li style="text-decoration: line-through;">Subhead length</li>
+              <li style="text-decoration: line-through;">Check h1/h2 consistency on mobile</li>
             </ul>
           </li>
-          <li>Product page:
+          <li style="text-decoration: line-through;">Product page:
             <ul>
-              <li>Fonts on accordion</li>
-              <li>Pictures of documents, minimum height?</li>
-              <li>Upgrade rate styling</li>
-              <li>Check heading consistency on mobile</li>
+              <li style="text-decoration: line-through;">Fonts on accordion</li>
+              <li style="text-decoration: line-through;">Pictures of documents, minimum height?</li>
+              <li style="text-decoration: line-through;">Upgrade rate - styling</li>
             </ul>
           </li>
-          <li>Need a Product Rediret page, see screenshot</li>
+          <li style="text-decoration: line-through;">Need a Product Redirect page, see screenshot</li>
           <li style="text-decoration: line-through;">Make the current product-category-lp.html (Group Term life) a product redirect page (lp)</li>
           <li style="text-decoration: line-through;">Make the current product-lp.html (Group Term life) a product category page (lp)</li>
-          <li>Blog Post:
+          <li style="text-decoration: line-through;">Blog Post:
             <ul>
-              <li>Image too big</li>
-              <li>Retain right rail</li>
-              <li>Can width of site, and rails be widened? (See AFA)</li>
+              <li style="text-decoration: line-through;">Image too big</li>
+              <li style="text-decoration: line-through;">Retain right rail</li>
+              <li style="text-decoration: line-through;">Can width of site, and rails be widened? (See AFA)</li>
             </ul>
           </li>
-          <li>Need example of general text page</li>
-          <li>Add PIMA to footer</li>
-          <li>Increase size of copyright copy</li>
+          <li style="text-decoration: line-through;">Need example of general text page</li>
+          <li style="text-decoration: line-through;">Add PIMA to footer</li>
+          <li style="text-decoration: line-through;">Increase size of copyright copy</li>
           <!-- <li style="text-decoration: line-through;">...</li> -->
         </ul>
       </div>
