@@ -58,6 +58,10 @@
               aria-selected="false">Cost</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" id="cost-calc-tab" data-toggle="tab" href="#costs-calc" role="tab" aria-controls="cost-calc"
+              aria-selected="false">Cost (Calc)</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details"
               aria-selected="false">Details</a>
           </li>
@@ -76,7 +80,7 @@
         </ul>
         <div class="tab-content" id="myTabContent">
 
-          <div class="tab-pane fade show active pt-4" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+          <div class="tab-pane fade show active pt-4 pb-5" id="overview" role="tabpanel" aria-labelledby="overview-tab">
             <h2>Educators Professional Liability Plan</h2>
 
             <p>These days, even the best educators can end up in court. Guard your career and your personal assets with
@@ -96,7 +100,7 @@
               only.</p>
           </div>
 
-          <div class="tab-pane fade pt-4" id="costs" role="tabpanel" aria-labelledby="cost-tab">
+          <div class="tab-pane fade pt-4 pb-5" id="costs" role="tabpanel" aria-labelledby="cost-tab">
             <h2>Cost</h2>
             <h3>Annual Rates</h3>
             <p><strong>For W-2 employed educators:</strong></p>
@@ -127,15 +131,13 @@
 
             <p>Coverage extends for a full 12 months.</p>
 
-
-
+          </div>
+          <div class="tab-pane fade pt-4 pb-5" id="costs-calc" role="tabpanel" aria-labelledby="cost-calc-tab">
+            <h2>Calculate your rate</h2>
 
             <div class="innerBoxCalc" id="divDentalCalculator">
               <div class="calculator">
-                <h2 class="blue bold">
-                  &nbsp;Calculate your rate</h2>
-                <hr />
-                <h3 class="orange bold">
+                <h3>
                   Educators Dental Plan</h3>
                 <p>
                   <input class="zipcode" id="txtZip" placeholder="Enter your zip" style="display: none;" type="text" /><button class="btnGetDentalRate" id="btnGo" type="submit">Get Rate</button></p>
@@ -164,7 +166,7 @@
 
           </div>
 
-          <div class="tab-pane fade pt-4" id="details" role="tabpanel" aria-labelledby="details-tab">
+          <div class="tab-pane fade pt-4 pb-5" id="details" role="tabpanel" aria-labelledby="details-tab">
 
             <h2>Coverage Details</h2>
 
@@ -495,13 +497,13 @@
 
           </div>
 
-          <div class="tab-pane fade pt-4" id="documents" role="tabpanel" aria-labelledby="documents-tab">
+          <div class="tab-pane fade pt-4 pb-5" id="documents" role="tabpanel" aria-labelledby="documents-tab">
             <h2>Claim Form</h2>
             <a href="https://www.ftj.com/Images/ckfinder/userfiles/files/FILE-EPLI%20Incident%20Form.pdf">Incident form<br>
             <img src="../images/image-epli-incident-form.jpeg" alt="Incident Form" width="250"></a>
           </div>
 
-          <div class="tab-pane fade pt-4" id="faqs" role="tabpanel" aria-labelledby="faqs-tab">
+          <div class="tab-pane fade pt-4 pb-5" id="faqs" role="tabpanel" aria-labelledby="faqs-tab">
             <!--FAQ-->
             <h2>Frequently asked Questions</h2>
             <div id="accordionTwo">
@@ -743,7 +745,7 @@
 
           </div>
 
-          <div class="tab-pane fade pt-4" id="upgrades" role="tabpanel" aria-labelledby="upgrades-tab">
+          <div class="tab-pane fade pt-4 pb-5" id="upgrades" role="tabpanel" aria-labelledby="upgrades-tab">
             <h2>Upgrade Chart Example</h2>
             <p>The American Association of School Personnel Administrators provides $1 million in professional liability insurance to every member who meets the plan's eligibility requirements. For a few dollars per year, eligible members can upgrade to as much as $2 million in liability coverage and add coverage for part-time educational activities.</p>
             <p>This chart will use the standard table styling.</p>
