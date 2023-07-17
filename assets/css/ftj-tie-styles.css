@@ -144,15 +144,14 @@ li {
 .billboard {
   height: auto;
   color: #ffffff;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
   .billboard h1 {
-    font-size: 1.7rem;
-    text-align: center; }
+    font-size: 1.7rem; }
   .billboard h3 {
     margin-top: 0;
     border: 0;
-    font-size: 1.1rem;
-    text-align: center; }
+    font-size: 1.1rem; }
   .billboard .hero {
     height: 25vh; }
     .billboard .hero img {
@@ -330,7 +329,7 @@ h4 a:after {
   margin-top: .5rem;
   margin-bottom: .5rem;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1.2em;
   line-height: 1.2em;
   text-transform: none;
   letter-spacing: 0; }
@@ -579,13 +578,12 @@ select {
   p {
     text-align: left; }
 
-  .billboard h1 {
+  .billboard {
     text-align: left; }
-  .billboard h3 {
-    text-align: left;
-    margin-bottom: auto; }
-  .billboard .hero {
-    height: 35vh; } }
+    .billboard h3 {
+      margin-bottom: auto; }
+    .billboard .hero {
+      height: 35vh; } }
 @media (min-width: 992px) {
   .single-column {
     padding: 20px 10%; }

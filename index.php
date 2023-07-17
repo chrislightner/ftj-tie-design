@@ -83,9 +83,7 @@
         <h2>Todos</h2>
         <ul>
           <!-- <li style="text-decoration: line-through;">...</li> -->
-          <li>assoc-lp.html work on form design</li>
-          <li>update style guide</li>
-          <li>PL Product cat page feels a bit clunky, needs more work</li>
+          <li>Update style guide</li>
           <li>Format Calculator on Product/Cost page</li>
         </ul>
       </div>

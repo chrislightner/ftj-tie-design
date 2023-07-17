@@ -217,16 +217,15 @@ li {
   height: auto;
   color: #ffffff;
   overflow: hidden;
+  text-align: center;
 
   h1 {
     font-size: 1.7rem;
-    text-align: center;
   }
   h3{
     margin-top: 0;
     border: 0;
     font-size: 1.1rem;
-    text-align: center;
   }
 
   .hero {
@@ -497,7 +496,7 @@ li {
     margin-top: .5rem;
     margin-bottom: .5rem;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.2em;
     line-height: 1.2em;
     text-transform: none;
     letter-spacing: 0;
@@ -872,11 +871,8 @@ select {
     }
 
   .billboard {
-    h1 {
-      text-align: left;
-    }
+    text-align: left;
     h3{
-      text-align: left;
       margin-bottom: auto;
     }
     .hero {
