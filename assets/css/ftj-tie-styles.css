@@ -22,9 +22,12 @@ header {
   padding: 15px 10px; }
   header .container {
     padding: 0; }
-  header .assoc-logo {
-    margin: 0 auto 10px;
-    display: block; }
+  header .logo-block .assoc-logo {
+    margin: 0 auto 10px; }
+  header .logo-block .tie-logo-header {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 10px; }
   header .logo {
     width: 100%;
     max-width: 280px; }
@@ -161,6 +164,8 @@ li {
       filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); }
   .billboard .leadin {
     max-width: 600px; }
+    .billboard .leadin h4 {
+      font-weight: normal !important; }
 
 .table {
   border-bottom: 1px solid #dee2e6;
@@ -564,11 +569,12 @@ select {
     header .logo {
       width: 100%;
       max-width: 400px; }
-    header .assoc-logo {
-      border-right: 1px solid #000000;
-      padding-right: 10px;
+    header .logo-block .assoc-logo {
       display: inline-block;
-      margin: 0 10px 0 0; }
+      margin: 0; }
+    header .logo-block .tie-logo-header {
+      display: inline-block;
+      margin: 0 20px 0 0; }
 
   h1,
   h2,

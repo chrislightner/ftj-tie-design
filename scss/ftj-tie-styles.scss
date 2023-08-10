@@ -50,9 +50,15 @@ header {
     padding: 0;
   }
 
-  .assoc-logo {
-    margin: 0 auto 10px;
-    display: block;
+  .logo-block{
+    .assoc-logo {
+      margin: 0 auto 10px;
+    }
+    .tie-logo-header {
+      width: 100%;
+      max-width: 200px;
+      margin: 0 auto 10px;
+    }
   }
 
   .logo {
@@ -241,6 +247,9 @@ li {
 
   .leadin {
     max-width: 600px;
+    h4{
+      font-weight: normal !important;
+    }
   }
 
 }
@@ -851,11 +860,15 @@ select {
       max-width: 400px;
     }
 
-    .assoc-logo {
-      border-right: 1px solid #000000;
-      padding-right: 10px;
-      display: inline-block;
-      margin: 0 10px 0 0;
+    .logo-block{
+      .assoc-logo {
+        display: inline-block;
+        margin: 0;
+      }
+      .tie-logo-header {
+        display: inline-block;
+        margin: 0 20px 0 0;
+      }
     }
 
 
