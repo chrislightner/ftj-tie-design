@@ -63,6 +63,7 @@
           <li><a href="mockups/product-category-lp-tl.html" target="_blank">Product Category Landing Page example - TL (Only product category known)</a></li>
           <li><a href="mockups/product-category-list.html" target="_blank">Product Category List example (With Short Descriptions and CTAs)</a></li>
           <li><a href="mockups/product.html" target="_blank">Product Page example</a></li>
+          <li><a href="mockups/personal-lp.html" target="_blank">Personalized Landing Page</a></li>
           <li><a href="mockups/blog-lp.html" target="_blank">Blog Landing Page</a></li>
           <li><a href="mockups/blog-post.html" target="_blank">Blog Post</a></li>
           <li><a href="mockups/contact-us.html" target="_blank">Contact Us</a></li>
