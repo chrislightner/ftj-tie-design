@@ -166,6 +166,12 @@ li {
     max-width: 600px; }
     .billboard .leadin h4 {
       font-weight: normal !important; }
+  .billboard label {
+    color: #ffffff;
+    opacity: .5; }
+  .billboard .light {
+    color: #ffffff;
+    opacity: .5; }
 
 .table {
   border-bottom: 1px solid #dee2e6;
