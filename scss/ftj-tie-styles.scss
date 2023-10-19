@@ -160,6 +160,16 @@ a:hover {
   border: none;
 }
 
+.options{
+  background-color: magenta;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  width: max-content;
+  padding: 5px 10px;
+  margin: 10px 0 0 -65px;
+  position: absolute;
+}
+
 label {
   font-family: $font-stack-headers;
   color: $dark-teal;

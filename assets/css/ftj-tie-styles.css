@@ -95,6 +95,15 @@ a:hover {
 .prod-result:last-child {
   border: none; }
 
+.options {
+  background-color: magenta;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  width: max-content;
+  padding: 5px 10px;
+  margin: 10px 0 0 -65px;
+  position: absolute; }
+
 label {
   font-family: "Playfair Display", serif;
   color: #1d7e88;
