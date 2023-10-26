@@ -694,6 +694,9 @@ select {
     text-indent: -14px;
     padding-left: 14px;
   }
+  h3:hover, h3.open{
+    color:$dark-teal;
+  }
   h4 {
     text-align: left;
   }

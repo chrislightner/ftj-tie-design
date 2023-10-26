@@ -467,6 +467,8 @@ select {
   text-align: left;
   text-indent: -14px;
   padding-left: 14px; }
+.prod-list-accordion h3:hover, .prod-list-accordion h3.open {
+  color: #1d7e88; }
 .prod-list-accordion h4 {
   text-align: left; }
 .prod-list-accordion .toggle-content {
