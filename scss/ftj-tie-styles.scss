@@ -112,6 +112,23 @@ header {
   }
 }
 
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background: none;
+  border-radius: 0.4rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: ">";
+}
+
 p {
   font-size: 1.1em;
   line-height: 1.6em;
