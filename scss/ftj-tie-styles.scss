@@ -16,7 +16,7 @@ $dark-teal: #1d7e88;
 $light-teal: #10a8b1;
 $peach: #fdc484;
 $orange: #f47b39;
-$burnt-orange: #d85f27;
+$burnt-orange: #c25624; //was #d85f27
 $tie-blue: #00aef0;
 $dark-gray: #58595b;
 $background-gray: #f1f1f1;
@@ -205,26 +205,27 @@ h2 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 1.7em;
+  font-size: 1.75em;
 }
 
 h3 {
   font-family: $font-stack;
-  font-weight: 400;
-  font-size: 1.25em;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  padding-bottom: .5rem !important;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #c9c9c9;
-  line-height: 1.5em;
+  color: $dark-teal;
+  font-weight: 700;
+  font-size: 1.5em;
+  // text-transform: uppercase;
+  // letter-spacing: .08em;
+  // padding-bottom: .5rem !important;
+  // margin-top: 2rem;
+  // margin-bottom: 1.5rem;
+  // border-bottom: 2px solid #c9c9c9;
+  // line-height: 1.5em;
 }
 
 h4 {
   font-family: $font-stack;
   font-weight: 700;
-  font-size: 1.45em;
+  font-size: 1.25em;
   // text-align: center;
 }
 
@@ -629,7 +630,8 @@ select {
 .btn-primary:hover {
   background: none;
   border: none;
-  background-color: $orange;
+  //background-color: $orange;
+  background-color: #a04b23;
 }
 
 .btn-primary:active,

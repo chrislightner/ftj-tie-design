@@ -135,24 +135,18 @@ h2 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 1.7em; }
+  font-size: 1.75em; }
 
 h3 {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.25em;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  padding-bottom: .5rem !important;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #c9c9c9;
-  line-height: 1.5em; }
+  color: #1d7e88;
+  font-weight: 700;
+  font-size: 1.5em; }
 
 h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 1.45em; }
+  font-size: 1.25em; }
 
 h5 {
   font-family: "Roboto", sans-serif;
@@ -249,7 +243,7 @@ li {
     .blog .card .card-body .card-title {
       font-size: 1.5em;
       font-family: "Playfair Display", serif;
-      color: #d85f27; }
+      color: #c25624; }
     .blog .card .card-body .btn {
       margin: 20px 0 0; }
 
@@ -421,7 +415,7 @@ select {
 
 .btn-primary {
   background: none;
-  background-color: #d85f27; }
+  background-color: #c25624; }
 
 .btn-secondary {
   background: none;
@@ -430,13 +424,13 @@ select {
 .btn-primary:hover {
   background: none;
   border: none;
-  background-color: #f47b39; }
+  background-color: #a04b23; }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:not(:disabled):not(.disabled):active {
   background: none;
-  background-color: #d85f27; }
+  background-color: #c25624; }
 
 .btn-secondary:active,
 .btn-secondary:focus,
@@ -690,7 +684,7 @@ select {
   .colors .square.dark-teal {
     background-color: #1d7e88; }
   .colors .square.burnt-orange {
-    background-color: #d85f27; }
+    background-color: #c25624; }
   .colors .square.dark-gray {
     background-color: #58595b; }
   .colors .square.light-teal {
