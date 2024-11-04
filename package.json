@@ -13,6 +13,9 @@
     "url": "https://github.com/twbs/bootstrap-npm-starter/issues"
   },
   "homepage": "https://github.com/twbs/bootstrap-npm-starter#readme",
+  "engines" : {
+    "node" : ">=20.0.0"
+  },
   "scripts": {
     "build": "npm run css",
     "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/",
