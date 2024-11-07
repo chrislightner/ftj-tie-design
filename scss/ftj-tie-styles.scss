@@ -12,6 +12,7 @@ $font-stack-headers: 'Playfair Display', serif;
 /****************************************/
 /*              Colors                  */
 /****************************************/
+$aa-compliant-teal: #1A707A;
 $dark-teal: #1d7e88;
 $light-teal: #10a8b1;
 $peach: #fdc484;
@@ -139,7 +140,7 @@ p {
 
 a,
 a:active {
-  color: $dark-teal;
+  color: $aa-compliant-teal;
 
   img {
     display: block;
